@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Lasalot/docusaurus-test/edit/main',
+          editUrl: null,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Lasalot/docusaurus-test/edit/main',
+            null,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
